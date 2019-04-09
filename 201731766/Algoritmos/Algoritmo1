@@ -1,0 +1,20 @@
+metodo creacionTablero
+	casillas = leer ingresarCantidad;
+	matrizTablero = label[casillas][casillas];
+	matriz2[][] = nueva Matriz[casillas][casillas];
+	para(x=0; x < casillas; x++)
+		para(y=0; y < casillas; x++)
+			matriz2[x][y] =1;
+			metodoClick 
+				para(posX=0; posX<x; posX++)
+					para(posY=0; posY<x; posY++)
+						si (matriz == matrizTablero[posX][posY])
+							metodoClickCasilla
+						FinSi
+					FinPara
+				FinPara
+			FinmetodoClick
+			mostrar PanelJuego
+		FinPara
+	FinPara
+FinMetodo
